@@ -21,19 +21,24 @@ body {
     font-size: 1.1rem;
 }
 
-table {
+.myTable {
     margin: 12px auto;
     border-collapse: collapse;
     width: 50%;
 }
 
-table thead {
-    background-color: #444;
-    color: #fff;
+.myTable thead th , table tr td {
+    padding: 8px;
+    border: 1px solid #ccc;
 }
 
-table thead th , table tr td {
-    padding: 8px 15px;
+.myTable tr:hover {
+    background-color: #ddd;
+}
+
+.myTable th {
+    background-color: #04AA6D;
+    color: #fff;
 }
 
 </style>
@@ -59,6 +64,20 @@ table thead th , table tr td {
                 <td>Masoud</td>
                 <td>Tabatabaei</td>
                 <td>Isfahan</td>
+                <td>Iran</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Amir</td>
+                <td>Salehi</td>
+                <td>Isfahan</td>
+                <td>Iran</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Mohsen</td>
+                <td>Ghasemi</td>
+                <td>Tehran</td>
                 <td>Iran</td>
             </tr>
         </tbody>
