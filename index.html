@@ -41,9 +41,35 @@ body {
     color: #fff;
 }
 
+@keyframes placeHolderShimmer{
+    0%{
+        background-position: -468px 0
+    }
+    100%{
+        background-position: 468px 0
+    }
+}
+
+.placeholder {
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-name: placeHolderShimmer;
+    animation-timing-function: linear;
+    background: #eee;
+    background: linear-gradient(to right, #eeeeee 8%, #dddddd 18%, #eeeeee 33%);
+    background-size: 1000px 104px;
+    overflow: hidden;
+    width:70%;
+    height:22px;
+    border-radius:4px;
+    display:inline-block;
+}
+
 </style>
 
 <body>
+    <br>
     <h1>Simple Table Placeholder</h1>
     <p class="font11">Before the data is loaded on table, table placeholder is shown; as soon as data was loaded placeholder disappears!</p>
     <br>

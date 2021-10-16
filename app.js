@@ -63,7 +63,7 @@ function tableLoading(tableElem , columnsNumber , rowNumbers){
         let td = "";
         let tr = `<tr>`;
         for(let j=1 ; j <= columnsNumber ; j++){
-            td += `<td><span style="width:70%; height:20px; background-color:#eee; border-radius:4px; display:inline-block;"></span></td>`;
+            td += `<td><span class="placeholder"></span></td>`;
         }
         tr += `${td}</tr>`;
         
