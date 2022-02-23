@@ -1,4 +1,4 @@
-// hard-coded data for test
+// hard-coded data for test، in real situation maybe it comes from server
 let data = [
     {
         "id" : 1 ,
